@@ -4,6 +4,8 @@ In this project, the student are going to be trained to use Twitter API and Goog
 
 Google Cloud Platform, offered by Google，is a suite of cloud computing services that runs on the same infrastructure that Google uses internally for its end-user products, such as Google Search, Gmail, file storage, and YouTube. Besides, it also provides a series of modular cloud service including computing, data storage, data analytics and machine learning. Google Cloud API is the key element of this project. It ensure the developers implement the power of everything from storage access to machine-learning based image analytics to their Cloud Platform applications. To start a project, there are many google tutorial docs so that the developer can read and follow to get a quikstart of their project. 
 
+Sentiment Analysis inspects the given text and identifies the prevailing emotional opinion within the text, especially to determine a writer's attitude as positive, negative, or neutral. Sentiment analysis is performed through the analyzeSentiment method. 
+
 In this case, we are focus on the sentiment analysis, which requires Natual Language API. The Google Cloud Platform reconmaned to use the Cloud Natual Language with providing client libraries. 
 
 Firstly, the users need to install the client library. The users can choose different language development environment such as C, Go, Java, Node.js, PHP, Python, and Ruby. In this case, I choose to use Pyhton. Then the client library can be installed using pip: 
@@ -17,4 +19,5 @@ export GOOGLE_APPLICATION_CREDENTIALS="/home/user/Downloads/my-key.json"
 
 After the three step finished, the user may creat their python file and develope the code. 
 
-Sentiment Analysis inspects the given text and identifies the prevailing emotional opinion within the text, especially to determine a writer's attitude as positive, negative, or neutral. Sentiment analysis is performed through the analyzeSentiment method. 
+
+

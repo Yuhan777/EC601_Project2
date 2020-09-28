@@ -7,10 +7,14 @@ Google Cloud Platform, offered by Google，is a suite of cloud computing service
 In this case, we are focus on the sentiment analysis, which requires Natual Language API. The Google Cloud Platform reconmaned to use the Cloud Natual Language with providing client libraries. 
 
 Firstly, the users need to install the client library. The users can choose different language development environment such as C, Go, Java, Node.js, PHP, Python, and Ruby. In this case, I choose to use Pyhton. Then the client library can be installed using pip: 
-#pip install --upgrade google-cloud-language
+
+pip install --upgrade google-cloud-language
+
 Second step is to set up authentication. the developers are required to set up authentication by creating a service account and setting an environment variable to run the client library. Follow the instruction, the developer can creat a service account key which is a JSON file downloads to local computer.
+
 Thirdly, the user need to provide authentication creadentials to the applicaition code by setting the environment variable GOOGLE_APPLICATION_CREDENTIALS using:
 export GOOGLE_APPLICATION_CREDENTIALS="/home/user/Downloads/my-key.json"
+
 After the three step finished, the user may creat their python file and develope the code. 
 
 Sentiment Analysis inspects the given text and identifies the prevailing emotional opinion within the text, especially to determine a writer's attitude as positive, negative, or neutral. Sentiment analysis is performed through the analyzeSentiment method. 

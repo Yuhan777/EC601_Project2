@@ -22,7 +22,7 @@ Sentiment Analysis inspects the given text and identifies the prevailing emotion
 In the code, there are score and mmagnitude. Sore is the score of the sentiment range from -1.0(very negative) to 1.0(very positive). Magnitude is the strength of sentiment and ranges from 0 to infinity.
 
 In the begining of the code, it import the Google Natural Language library.
-
+<img width="300" alt="Screen Shot 2020-09-28 at 9 49 33 PM" src="https://user-images.githubusercontent.com/70667153/94480616-23972000-0209-11eb-97d1-03eddf8fee6b.png">
 
 
 

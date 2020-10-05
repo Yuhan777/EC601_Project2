@@ -41,14 +41,25 @@ sentiment = client.analyze_sentiment(document=document).document_sentiment, whic
 
 ## Phase 2 Build your own social media analyzer
 
-* User stories
-** As a product owner, I want to know how people like or dislike about the product in social media such as Twitter.
+### User stories
 
-* Define MVP 
+* As a product owner, I want to know how many people would post their evaluation of the product in social media.
 
-* Translate user stories to a modular design
-* Who is your user?
-* What are the basic user stories?
+* As a product owner, I want to know how people like or dislike about the product in social media such as Twitter.
+
+### Define MVP 
+
+* Twitter API to get data.
+
+* Google NLP to get the sentiment of the text.
+
+* An Pyhton development environment.
+
+### Translate user stories to a modular design
+
+
+### Who is your user?
+### What are the basic user stories?
 
 
 

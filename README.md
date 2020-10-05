@@ -1,4 +1,4 @@
-## EC601_Project2
+# EC601_Project2
 
 * Introduction
 
@@ -6,11 +6,11 @@ In this project, the student are going to be trained to use Twitter API and Goog
 
 Google Cloud Platform, offered by Google，is a suite of cloud computing services that runs on the same infrastructure that Google uses internally for its end-user products, such as Google Search, Gmail, file storage, and YouTube. Besides, it also provides a series of modular cloud service including computing, data storage, data analytics and machine learning. Google Cloud API is the key element of this project. It ensure the developers implement the power of everything from storage access to machine-learning based image analytics to their Cloud Platform applications. To start a project, there are many google tutorial docs so that the developer can read and follow to get a quikstart of their project.  
 
-* Phase 1 (a) Twitter API
+## Phase 1 (a) Twitter API
 
 Running the tweetexample.py, the code output a json file. The code could get the most recent 3240 tweets and save them in the json file. 
 
-* Phase 1 (b) Google NLP
+## Phase 1 (b) Google NLP
 
 In this case, we are focus on the sentiment analysis, which requires Natual Language API. The Google Cloud Platform reconmaned to use the Cloud Natual Language with providing client libraries. 
 
@@ -35,9 +35,21 @@ In the begining of the code, it import the Google Natural Language library.
 
 In this code, the text to analyze was 'Hello, world". Then, the code detects the sentiment of the text by  
 
-sentiment = client.analyze_sentiment(document=document).document_sentiment.
+sentiment = client.analyze_sentiment(document=document).document_sentiment, which output the sentiment score and magnitude as the figure shows.
 
-which output the sentiment score and magnitude.
+<img width="430" alt="Screen Shot 2020-10-05 at 10 00 08 PM" src="https://user-images.githubusercontent.com/70667153/95090125-7e73ce80-0757-11eb-9cd4-43cdb7485c69.png">
+
+## Phase 2 Build your own social media analyzer
+
+* User stories
+** As a product owner, I want to know how people like or dislike about the product in social media such as Twitter.
+
+* Define MVP 
+
+* Translate user stories to a modular design
+* Who is your user?
+* What are the basic user stories?
+
 
 
 

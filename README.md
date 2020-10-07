@@ -59,7 +59,9 @@ sentiment = client.analyze_sentiment(document=document).document_sentiment, whic
 
 
 ### Who is your user?
-### What are the basic user stories?
+
+* The user include all the product developers and companies who want to get feedback with their product.
+
 
 
 
